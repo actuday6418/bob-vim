@@ -4,7 +4,7 @@ endif
 
 syntax keyword bobKeyword Bob .
 syntax keyword bobStandardFunctions write write_line read let
-syntax match bobComment "#(.*)#"
+syntax match bobComment "\v#.*$"
 highlight link bobComment Comment 
 highlight link bobKeyword Keyword
 highlight link bobStandardFunctions Function
