@@ -1,1 +1,4 @@
-Bob write "Hello".
+(This is a comment) Bob write "Hello".
+Bob write line "an apple".
+Bob let Martha be a string.
+Bob write line Martha + "an apple". 
