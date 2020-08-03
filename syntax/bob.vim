@@ -12,6 +12,8 @@ syntax match bobOperators "-"
 syntax match bobOperators "*" 
 syntax match bobOperators "/" 
 syntax match bobOperators "%"
+syntax match bobOperators "{"
+syntax match bobOperators "}"
 syntax match bobString "\".*\""
 highlight link bobType Type
 highlight link bobComment Comment
