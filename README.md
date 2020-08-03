@@ -1,5 +1,5 @@
 # bob-vim
-Vim plugin files for the bob language
+Vim plugin files for the bob language. Provides syntax highlighting and autocomplete.
 
 # Usage
 1. Create the directory ~/.vim/bundle and cd into it.
