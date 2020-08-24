@@ -5,7 +5,7 @@ endif
 syntax keyword bobKeyword Bob 
 syntax match bobKeyword "\."
 syntax keyword bobType string number decimal
-syntax keyword bobStandardFunctions write line read let be a
+syntax keyword bobStandardFunctions write line read let be
 syntax match bobComment "(.*)"
 syntax match bobOperators "+" 
 syntax match bobOperators "-" 
@@ -15,6 +15,7 @@ syntax match bobOperators "%"
 syntax match bobOperators "{"
 syntax match bobOperators "}"
 syntax match bobString "\".*\""
+syntax match bobKeyword "and"
 highlight link bobType Type
 highlight link bobComment Comment
 highlight link bobKeyword Keyword
